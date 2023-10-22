@@ -1,16 +1,19 @@
 import React from 'react';
-import TaskForm from './TaskForm';
-import TaskList from './TaskList';
-import { TaskProvider } from './TaskContext';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from './Components/main/Main';
+import Rag from './Components/Rag/Rag';
+import Included from './Components/Included/Included';
+
 
 const App = () => {
   return (
-    <TaskProvider>
-      <div>
-        <TaskForm />
-        <TaskList />
-      </div>
-    </TaskProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main/>} />
+        <Route path='/Rag' element={<Rag/>}/>
+        <Route path='/Included' element={<Included/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 };
 

@@ -1,0 +1,57 @@
+/* main.css (or any other suitable CSS file) */
+.full{
+  background-color: rgb(155, 181, 219);
+  height: 100vh;
+  width: 100vw;
+}
+
+.withoutC {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .withOut {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px white;
+  }
+
+  .withOut:hover{
+    background-color: white;
+    color: #007BFf;
+    box-shadow: 5px 5px #007BFF;
+  }
+  
+  .with:hover{
+    background-color: white;
+    color: #007BFf;
+    box-shadow: 5px 5px #007BFF;
+  }
+
+  .withC {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .with {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px white;
+  }
+  
+  .text{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
